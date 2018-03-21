@@ -1,0 +1,138 @@
+body{
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: .9;
+  text-align: center;
+  display: block;
+  align-items: flex-start;
+  justify-content: center;
+  overflow-x: scroll;
+  padding-top: 0px;
+}
+
+
+header{
+  display: flex;
+  height: 70px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+  position: fixed;
+  align-items: center;
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+  justify-content: space-between;
+  top: 0px;
+}
+
+nav{
+  display: inline-block;
+  padding-right: 10px;
+
+}
+
+nav span{
+  padding: 5px 5px;
+  color: seashell;
+  text-decoration: underline;
+}
+
+a{
+  color: seashell;
+}
+
+img{
+  height: 50px;
+}
+
+.logo{
+  padding-left: 10px;
+  padding-right: 100px;
+}
+
+.mission{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /* overflow: scroll; */ NEED TO FIGURE THIS OUT
+  position: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mission .content{
+  background-color: black;
+  display: block;
+  width: 1200px;
+}
+
+.teas{
+  display: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.options{
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+
+}
+
+.item{
+  padding: 10px;
+}
+.item img{
+  height: 200px;
+  width: 300px;
+  padding-bottom: 10px;
+}
+
+.locations{
+  display: inline-flex;
+  background-image:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.shops{
+  display: flex;
+  flex-direction: row;
+}
+
+.shop{
+  display: flex;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  margin: 15px 40px;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.contact{
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer{
+  text-align: left;
+  padding-left: 20px;
+}
